@@ -67,6 +67,6 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || https:\\syncode-vjhe.onrender.com;
 
 server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
